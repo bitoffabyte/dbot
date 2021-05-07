@@ -48,5 +48,5 @@ client.on('message', async (message) => {
 			}
 		}
 });
-
+console.log(process.env.doge);
 client.login(process.env.doge);
