@@ -17,7 +17,7 @@ client.on('message', async (message) => {
 	if (message.channel.name === 'd-o-g-e')
 		if (message.content.startsWith('*doge')) {
 			if (!stat) {
-				stat = true;
+				// stat = true;
 
 				setInterval(async function () {
 					try {
