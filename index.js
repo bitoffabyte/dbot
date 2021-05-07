@@ -33,7 +33,7 @@ client.on('message', async (message) => {
 						console.log(ap, bb, inr);
 						const exampleEmbed = new Discord.MessageEmbed()
 							.setColor('#0099ff')
-							.setTitle(`Doge is at ${inr + 2.8}₹`)
+							.setTitle(`Doge is at ${inr + 3}₹`)
 
 							.setImage(
 								'https://www.telegraph.co.uk/content/dam/technology/2021/01/28/Screenshot-2021-01-28-at-13-20-35_trans_NvBQzQNjv4BqEGKV9LrAqQtLUTT1Z0gJNRFI0o2dlzyIcL3Nvd0Rwgc.png'
