@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const axios = require('axios');
 const dotenv = require('dotenv');
-
+// Yeet
 // const img = require('./a.png');
 dotenv.config();
 client.on('ready', () => {
